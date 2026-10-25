@@ -1,6 +1,7 @@
-# USB 扩容盘检测工具
+﻿# USB 扩容盘检测工具
 
 > 检测 U 盘 / 存储卡 / 移动硬盘是否**虚标容量**（扩容盘），并给出**实际可用容量**。  
+> Detect fake-capacity USB drives on Windows — real capacity, safe mode, high-DPI UI.  
 > Windows 10/11 · 图形界面 · 单文件 EXE · 需要管理员权限
 
 ![界面截图](docs/screenshot.png)
@@ -15,6 +16,10 @@
 2. 双击运行，在 UAC 提示中选择“是”
 3. 插入 U 盘，点击 **刷新**
 4. 选中 U 盘 → 勾选确认 → 选择检测方式 → **开始检测**
+
+> 国内访问 GitHub 较慢时，可使用 Gitee 镜像：  
+> https://gitee.com/lichenzhen0713/USBFakeDetector  
+> Gitee 直接下载：[UsbFakeDriveDetector.exe](https://gitee.com/lichenzhen0713/USBFakeDetector/raw/main/dist/UsbFakeDriveDetector.exe)
 
 > EXE 未签名，Windows 可能提示“未知发布者”，选择“仍要运行”即可；也可以按下方方法自行编译。
 
@@ -143,3 +148,4 @@ build.ps1              一键编译
 ## 免责声明
 
 本软件会不可逆地写入目标磁盘。使用前请确认目标磁盘并备份数据；因误选磁盘、数据丢失等造成的损失由使用者自行承担。检测结果仅供参考，不构成商品质量鉴定结论。
+
