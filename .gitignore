@@ -1,0 +1,6 @@
+bin/
+reports/
+scratch/
+*.vhd
+*.log
+.vs/
